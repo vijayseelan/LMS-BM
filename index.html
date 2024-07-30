@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Teacher Dashboard</h1>
+            <button id="logoutButton">Logout</button>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#" id="nav-overview">Overview</a></li>
+                <li><a href="#" id="nav-lessons">Manage Lessons</a></li>
+                <li><a href="#" id="nav-students">Manage Students</a></li>
+                <li><a href="#" id="nav-classrooms">Classrooms</a></li>
+            </ul>
+        </nav>
+        <main id="content-area">
+            <!-- Content will be dynamically inserted here -->
+        </main>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+    
+    <!-- Your custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
